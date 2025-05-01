@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+.grid{
+    position: absolute;
+    height: 300px;
+    width: 510px;
+    border: 2px solid white;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.ball{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: red;
+/*     left: 250px;
+    bottom: 70px; */
+}
+.block{
+    position: absolute;
+    height: 20px;
+    width: 80px;
+    border: 2px solid;
+    background-color: yellow;
+/*     left: 205px;
+    bottom: 50px; */
+}
+.tile{
+    position: absolute;
+    width : 120px;
+    height : 25px;
+/*     left : 25px;
+    bottom : 260px; */
+    background-color: brown;
+}
